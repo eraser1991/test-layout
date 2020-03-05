@@ -1,0 +1,127 @@
+    body {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .main-header {
+        width: 100%;
+        min-height: 1024px;
+        margin: 0 0 0 0;
+        background-color: #fff;
+        background-image: url(../image/bg_photo_11949.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    
+    .main-header-logo {
+        width: 181px;
+        margin: 0 0 0 0;
+        font-family: Raleway;
+        font-size: 34px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.04em;
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .main-header-logo-icon {
+        fill: CurrentColor;
+    }
+    
+    .main-header-logo:hover .main-header-logo-txt {
+        color: #bfab93;
+    }
+    
+    .main-header-logo:hover .main-header-logo-icon {
+        fill: #bfab93;
+    }
+    
+    .main-header-logo:active .main-header-logo-txt {
+        color: #fff;
+    }
+    
+    .main-header-logo:active .main-header-logo-icon {
+        fill: #fff;
+    }
+    
+    .main-header-menu {
+        width: 637px;
+        margin: 0 0 0 0;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-header-menu-item {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    
+    .main-header-menu-item:hover {
+        color: #bfab93;
+    }
+    
+    .main-header-menu-item:active {
+        color: #fff;
+    }
+    
+    .main-header-basket {
+        width: 20px;
+        min-height: 24px;
+        color: #fff;
+        padding: 0 0 0 0;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    
+    .main-header-basket-icon {
+        fill: #fff;
+    }
+    
+    .main-header-basket:hover .main-header-basket-icon {
+        fill: #bfab93;
+    }
+    
+    .main-header-basket:hover .main-header-basket-icon {
+        fill: #fff;
+    }
+    
+    .main-header-form {
+        width: 350px;
+        margin: 0 0 0 0;
+        display: flex;
+    }
+    
+    .main-header-search {
+        width: 24px;
+        height: 24px;
+        outline: none;
+        background: transparent;
+        border: none;
+        color: #fff
+    }
+    
+    .main-header-search-icon {
+        fill: #fff;
+    }
+    
+    #header-search:focus {
+        width: 250px;
+        transition: width 1s ease-out;
+        background-position: right;
+        background-color: #fff;
+    }
+    
+    .main-header-search-icon:hover {
+        fill: #bfab93;
+    }
